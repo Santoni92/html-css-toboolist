@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Architects Daughter', cursive;
+}
 header{
     height:60px;
 }
@@ -24,7 +26,7 @@ h1{
 }
 
 main{
-    height:800px;
+    height:900px;
     padding-top:40px;
     padding-left:120px;
     padding-right:120px;
@@ -32,7 +34,7 @@ main{
 }
 
 #container{
-    height:650px;
+    height:700px;
     background-color:rgb(175, 243, 243);
     border:1px solid white;
     border-radius: 5px;
@@ -48,6 +50,11 @@ main{
 #liste{
     height:300px;
     padding:20px;
+}
+
+.titolo-lista{
+    font-weight: 800;
+    font-size: 25px;
 }
 
 .elenco-liste{
