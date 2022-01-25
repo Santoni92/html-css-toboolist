@@ -1,6 +1,3 @@
-/*{
-    box-sizing: border-box;
-}*/
 
 header{
     height:60px;
@@ -8,16 +5,34 @@ header{
 
 h1{
     display: inline;
+    vertical-align:top;
+}
+
+#pulsante-colorato-sinistra{
+    background-color: rgb(36, 36, 184);
+    color:white;
+    padding:5px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+#pulsante-colorato-destra{
+    background-color: white;
+    padding:5px;
+    border: 1px solid;
+    border-radius: 3px;
 }
 
 main{
     height:800px;
-    padding:30px;
+    padding-top:40px;
+    padding-left:120px;
+    padding-right:120px;
     background-color: rgb(70, 69, 69);
 }
 
 #container{
-    height:600px;
+    height:650px;
     background-color:rgb(175, 243, 243);
     border:1px solid white;
     border-radius: 5px;
@@ -26,17 +41,26 @@ main{
 
 #pulsanti{
     height: 30px;
-    padding-left:30px
-    padding:40px;
+    padding-left:20px;
+    border-bottom: 2px solid lightgrey;
 }
 
 #liste{
     height:300px;
-    margin-top:20px;
+    padding:20px;
+}
+
+.elenco-liste{
+    padding-left:0;
+}
+
+ul{
+    padding:0px;
 }
 
 li{
     list-style-type: none;
+    padding:15px;
 }
 
 .simbolo-spunta{
