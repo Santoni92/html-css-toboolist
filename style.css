@@ -1,9 +1,9 @@
-*{
+/**{
     box-sizing: border-box;
-}
+}*/
 
 header{
-    height:100px;
+    height:20px;
 }
 
 h1{
@@ -12,27 +12,24 @@ h1{
 
 main{
     height:800px;
-    background-color: grey;
+    background-color: rgb(70, 69, 69);
 
 }
 
 #container{
-    width: 100%;
     height:600px;
-    background-color: rgb(228, 146, 146);
-    padding-top:10px;
-    padding-left: 40px;
-    padding-right:40px;
+    background-color:rgb(175, 243, 243);
+    margin:100px;
     border-radius: 2px;
 
 }
 
 #pulsanti{
-   width: 100%;
     height: 100px;
+    padding-left:30px
 }
 
 #liste{
-    height:500px;
+    height:300px;
     margin-top:20px;
 }
