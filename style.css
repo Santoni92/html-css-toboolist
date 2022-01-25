@@ -33,3 +33,26 @@ main{
     height:300px;
     margin-top:20px;
 }
+
+li{
+    list-style-type: none;
+}
+
+.simbolo-spunta{
+    color:green;
+    border-radius: 50%;
+}
+
+.editorial{
+    background-color: rgb(64, 103, 233);
+    color:white;
+    border-radius:5px;
+    padding:7px;
+}
+
+.q1goals{
+    background-color: violet;
+    color:white;
+    border-radius:5px;
+    padding:7px;
+}
