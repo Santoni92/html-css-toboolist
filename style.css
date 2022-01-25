@@ -40,19 +40,50 @@ li{
 
 .simbolo-spunta{
     color:green;
+    border:1px solid green;
     border-radius: 50%;
 }
+
+.simbolo-croce{
+    color:red;
+    border:1px solid red;
+    border-radius: 50%;
+}
+
 
 .editorial{
     background-color: rgb(64, 103, 233);
     color:white;
+    border:1px solid;
     border-radius:5px;
-    padding:7px;
+    padding:3px;
 }
 
 .q1goals{
     background-color: violet;
     color:white;
+    border:1px solid;
     border-radius:5px;
-    padding:7px;
+    padding:3px;
+}
+
+.mobile{
+    background-color:orange;
+    color:white;
+    border:1px solid;
+    border-radius:3px;
+}
+
+.website{
+    background-color:rgb(226, 43, 226);
+    color:white;
+    border:1px solid;
+    border-radius:3px;
+}
+
+.sales{
+    background-color:rgb(163, 218, 13);
+    color:white;
+    border:1px solid;
+    border-radius:3px;
 }
