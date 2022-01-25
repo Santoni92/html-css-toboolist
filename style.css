@@ -1,3 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
 header{
-    background-image: url(img/Logo.png);
+    height:100px;
+}
+
+h1{
+    display: inline;
+}
+
+main{
+    height:600px;
+    background-color: grey;
+}
+
+.container{
+    width: 500px;
+    height:200px;
+    background-color: white;
+    padding-top:10px;
+    padding-left: 40px;
+    padding-right:40px;
+    border-radius: 2px;
+
+}
+
+#pulsanti{
+   
+    height: 50px;
+}
+
+#liste{
+
 }
