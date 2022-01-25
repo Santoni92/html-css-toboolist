@@ -1,9 +1,9 @@
-/**{
+/*{
     box-sizing: border-box;
 }*/
 
 header{
-    height:20px;
+    height:60px;
 }
 
 h1{
@@ -12,21 +12,22 @@ h1{
 
 main{
     height:800px;
+    padding:30px;
     background-color: rgb(70, 69, 69);
-
 }
 
 #container{
     height:600px;
     background-color:rgb(175, 243, 243);
-    margin:100px;
-    border-radius: 2px;
-
+    border:1px solid white;
+    border-radius: 5px;
+    padding:50px;
 }
 
 #pulsanti{
-    height: 100px;
+    height: 30px;
     padding-left:30px
+    padding:40px;
 }
 
 #liste{
