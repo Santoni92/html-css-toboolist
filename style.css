@@ -96,40 +96,33 @@ li{
     font-size: 15px;
 }
 
+.label{
+    color:white;
+    border:1px solid;
+    border-radius:5px;
+    padding:3px;
+}
 
-.editorial{
+#editorial{
     background-color: rgb(64, 103, 233);
-    color:white;
-    border:1px solid;
-    border-radius:5px;
-    padding:3px;
 }
 
-.q1goals{
+#q1goals{
     background-color: violet;
-    color:white;
-    border:1px solid;
-    border-radius:5px;
-    padding:3px;
 }
 
-.mobile{
+#mobile{
     background-color:orange;
-    color:white;
-    border:1px solid;
-    border-radius:3px;
 }
 
-.website{
+#website{
     background-color:rgb(226, 43, 226);
-    color:white;
-    border:1px solid;
-    border-radius:3px;
 }
 
-.sales{
-    background-color:rgb(163, 218, 13);
-    color:white;
-    border:1px solid;
-    border-radius:3px;
+#sales{
+    background-color:rgb(170, 230, 8);
+}
+
+#recruiting{
+    background-color: rgb(24, 146, 8);
 }
