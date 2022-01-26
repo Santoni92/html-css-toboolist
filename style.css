@@ -46,7 +46,6 @@ main{
     height:750px;
     background-color:rgb(175, 243, 243);
     padding-left:50px;
-    margin: 0 auto;
     border:1px solid white;
     border-radius: 5px;  
 }
@@ -54,7 +53,6 @@ main{
 #pulsanti{
     height: 30px;
     padding-left:20px;
-    padding-top:
     border-bottom: 2px solid lightgrey;
 }
 
@@ -67,10 +65,12 @@ main{
 .titolo-lista{
     font-weight: 800;
     font-size: 25px;
+    padding-left:10px;
 }
 
 .elenco-liste{
     padding-left:0;
+    margin: 0 auto;
 }
 
 ul{
@@ -86,12 +86,14 @@ li{
     color:green;
     border:1px solid green;
     border-radius: 50%;
+    font-size: 15px;
 }
 
 .simbolo-croce{
     color:red;
     border:1px solid red;
     border-radius: 50%;
+    font-size: 15px;
 }
 
 
