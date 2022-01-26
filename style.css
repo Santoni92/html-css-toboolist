@@ -1,8 +1,16 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}   /*per resettare le proprietà css di default degli elementi html*/
+
 body{
     font-family: 'Architects Daughter', cursive;
+    background-color: gray;
 }
 header{
     height:60px;
+    background-color: white;
 }
 
 h1{
@@ -26,30 +34,34 @@ h1{
 }
 
 main{
-    height:900px;
-    padding-top:40px;
-    padding-left:120px;
-    padding-right:120px;
-    background-color: rgb(70, 69, 69);
+    /*padding-top: 20px;
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom:20px;*/
+    padding:20px 150px 20px 150px ;
 }
 
 #container{
+    width: 1200px;
     height:750px;
     background-color:rgb(175, 243, 243);
+    padding-left:50px;
+    margin: 0 auto;
     border:1px solid white;
-    border-radius: 5px;
-    padding:50px;
+    border-radius: 5px;  
 }
 
 #pulsanti{
     height: 30px;
     padding-left:20px;
+    padding-top:
     border-bottom: 2px solid lightgrey;
 }
 
 #liste{
     height:300px;
     padding:20px;
+    margin-top: 10px;
 }
 
 .titolo-lista{
