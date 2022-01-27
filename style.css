@@ -44,22 +44,10 @@ h1{
     border-radius: 3px;
 }
 
-main{/*
-    padding-top: 20px;
-    padding-left:150px;
-    padding-right:150px;
-    padding-bottom:20px;*/
+main{
+    
    padding:20px 150px 20px 150px ;
 }
-/*
-#container{
-    width: 1200px;
-    height:750px;
-    background-color:white;
-    padding-left:50px;
-    border:1px solid white;
-    border-radius: 5px;  
-}*/
 
 #liste{
 	width:600px;
